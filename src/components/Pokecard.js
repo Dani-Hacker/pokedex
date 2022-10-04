@@ -49,7 +49,7 @@ class Pokecard extends React.Component {
     } else if (!props.response && props.error) {
       return (
         <div className="error">
-          <img src="/assets/sign_warning.png" />
+          <img src="/assets/warning_sign.png" />
           <h1 style={{ color: "white" }}>{props.error.response.data}</h1>
         </div>
       );
