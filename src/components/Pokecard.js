@@ -13,7 +13,7 @@ class Pokecard extends React.Component {
           ","
         );
       }
-      let moves = "Moves :";
+      let moves = "Moves of the pokemon:";
       for (var i = 0; i < 2; i++) {
         moves = moves.concat(" ", props.response.data.moves[i].move.name, ",");
       }
